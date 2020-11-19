@@ -1,0 +1,222 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+}
+
+header, main, footer {
+	margin-left: 300px;
+}
+
+/*Навигация*/
+
+nav {
+	background-color: #45015D;
+	color: #fff;
+	width: 200px;
+	border-radius: 15px;
+	padding: 10px 20px;
+	position: fixed;
+	height: 100%;
+	font-weight: bold;
+}
+
+nav h2 {
+	font-size: 28px;
+	color: #fff;
+}
+
+.menu {
+	font-size: 25px;
+	list-style-type: none;
+}
+
+.menu li {
+	margin-bottom: 20px;
+}
+
+ul {
+	padding: 0;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu a:hover {
+	color: #0ff;
+	font-size: 35px;
+}
+
+/*Header*/
+
+h1 {
+	font-size: 60px;
+	margin-top: 0;
+	padding-top: 20px;
+}
+
+/*Картинки*/
+
+h2 {
+	color: #45015D;
+	border-bottom: 5px solid #45015D;
+	font-size: 50px;
+}
+
+.interior img {
+	width: 40%;
+	display: inline-block; 
+	border-radius: 20px;
+	margin: 1%;
+}
+
+/*Сервисы*/
+
+.text-content {
+	font-size: 25px;
+}
+
+/*Дизайнеры*/
+
+.designer img {
+	width: 90%;
+	border-radius: 20px;
+}
+
+.person {
+	display: flex;
+}
+
+.job-text {
+	background-color: #cacccc;
+	width: 84%;
+	padding: 3%;
+	border-radius: 15px;
+}
+
+.job {
+	color: gray;
+}
+
+.text-profession {
+	font-weight: bold;
+}
+
+/*Пакеты*/
+
+.tarif {
+	display: flex;
+	margin: 0 auto;
+}
+
+.tarif li {
+	border-bottom: 1px solid black;
+	list-style-type: none;
+	text-align: center;
+}
+
+.basic, .pro {
+	background-color: #cacccc; 
+	border-radius: 15px; 
+}
+
+.basic {
+	width: 20%;
+	font-weight: bolder;
+	margin-left: 25%;
+}
+
+.basic p {
+	font-size: 25px;
+}
+
+ol {
+	list-style: none;
+	padding: 0;
+	font-size: 20px;
+}
+
+ol:last-child {
+	margin-bottom: 0;
+}
+
+.pro {
+	width: 20%;
+	font-weight: bolder;
+	margin-left: 10%;
+}
+
+.pro p {
+	font-size: 25px;
+}
+
+.head {
+	background-color: #45015D;
+	margin: -24px 0 0;
+	font-size: 25px;
+}
+
+.color {
+	background-color: #f44336;
+}
+
+li {
+	padding: 20px 0;
+	border-radius: 15px;
+}
+
+.basic a, .pro a {
+	border-radius: 10px;
+	background-color: #fff;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.basic a:hover, .pro a:hover {
+	font-size: 25px;
+}
+
+.basic a {
+	color: #45015D;
+}
+
+.pro a {
+	background-color: #f44336;
+	color: #fff;
+}
+
+/*Контакты*/
+
+input {
+	width: 95%;
+	border: 1px solid gray;
+	padding: 10px;
+	margin: 15px 0;
+}
+
+input[type="submit"] {
+	width: 97%;
+	background-color: #45015D;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 15px 0;
+}
+
+/*FOOTEr*/
+
+footer {
+	text-align: right;
+	width: 95%;
+	background-color: gray;
+	padding: 30px 20px;
+	margin-top: 50px;
+	margin-left: 0;
+}
+
+a {
+	color: black;
+}
